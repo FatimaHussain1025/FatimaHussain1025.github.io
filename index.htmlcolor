@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fatima Hussain | Portfolio</title>
+    <style>
+        /* This section controls the look */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            /* A professional dark gradient background */
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); 
+            color: white;
+        }
+        .card { 
+            background: rgba(255, 255, 255, 0.05); 
+            padding: 40px; 
+            border-radius: 15px; 
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h1 { color: #38bdf8; margin-bottom: 10px; }
+        p { font-size: 1.1rem; color: #cbd5e1; }
+        .tag {
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Fatima Hussain</h1>
+        <p>Cybersecurity Student & Math Enthusiast</p>
+        <div class="tag">CompTIA Certified</div>
+    </div>
+</body>
+</html>
