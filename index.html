@@ -1,24 +1,89 @@
 <!DOCTYPE html>
-<html>
-<body>
-  <h1>Welcome to Fatima's Website</h1>
-  <p>Stay Tuned!</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima's Portfolio</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        .container { background: white; padding: 20px; border-radius: 10px; display: inline-block; box-shadow: 0px 4px 6px rgba(0,0,0,0.1); }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            padding: 50px 20px; 
+            background-color: #f8f9fa; 
+            color: #333;
+        }
+        .container { 
+            background: white; 
+            padding: 40px 30px; 
+            border-radius: 12px; 
+            display: inline-block; 
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.06); 
+            border-top: 5px solid #007acc; /* Adds a professional tech accent */
+        }
+        h1 { 
+            color: #111; 
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+        .status-tag {
+            display: inline-block;
+            background-color: #e1f5fe;
+            color: #0288d1;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            display: block;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: all 0.2s ease-in-out;
+        }
+        .btn-primary {
+            background-color: #007acc;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #005999;
+        }
+        .btn-secondary {
+            background-color: #24292e;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background-color: #1a1e22;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>Hello! I'm Fatima.</h1>
-        <p>Current Project: Building a Cybersecurity portfolio!</p>
+        <p class="subtitle">Welcome to my professional space.</p>
+        
+        <span class="status-tag">🔒 Current Project: Building a Cybersecurity Portfolio!</span>
+        
+        <div class="btn-container">
+            <a href="resume.pdf" class="btn btn-primary" target="_blank">📄 View My Resume</a>
+            
+            <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" class="btn btn-secondary" target="_blank">🔗 Connect on LinkedIn</a>
+        </div>
     </div>
+
 </body>
-</html> 
+</html>
